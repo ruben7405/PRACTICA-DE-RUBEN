@@ -23,7 +23,7 @@
                         <TextField fx:id="txtBuscar" layoutX="376.0" layoutY="31.0" />
                      </children>
                   </Pane>
-               </children>A
+               </children>
             </AnchorPane>
             <AnchorPane>
                <children>

@@ -16,7 +16,7 @@
                      <children>
                         <Label layoutX="23.0" layoutY="14.0" text="Gestión de Permisos de Construcción" textAlignment="CENTER" textFill="#06081f">
                            <font>
-                              <Font name="System Bold" size="12.0" />
+                              <Font name="System Bold" size="20.0" />
                            </font>
                         </Label>
                         <Label layoutX="376.0" layoutY="14.0" text="Buscar Permiso" />
