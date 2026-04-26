@@ -1,0 +1,13 @@
+C:\RUBEN\POO-G2-2026-1-dev-s5\SysVentVehiculo\src\main\java\module-info.java
+C:\RUBEN\POO-G2-2026-1-dev-s5\SysVentVehiculo\src\main\java\pe\edu\upeu\App.java
+C:\RUBEN\POO-G2-2026-1-dev-s5\SysVentVehiculo\src\main\java\pe\edu\upeu\controller\ClienteController.java
+C:\RUBEN\POO-G2-2026-1-dev-s5\SysVentVehiculo\src\main\java\pe\edu\upeu\controller\MainguiController.java
+C:\RUBEN\POO-G2-2026-1-dev-s5\SysVentVehiculo\src\main\java\pe\edu\upeu\enums\TipoVehiculo.java
+C:\RUBEN\POO-G2-2026-1-dev-s5\SysVentVehiculo\src\main\java\pe\edu\upeu\model\Cliente.java
+C:\RUBEN\POO-G2-2026-1-dev-s5\SysVentVehiculo\src\main\java\pe\edu\upeu\model\Vehiculo.java
+C:\RUBEN\POO-G2-2026-1-dev-s5\SysVentVehiculo\src\main\java\pe\edu\upeu\model\Venta.java
+C:\RUBEN\POO-G2-2026-1-dev-s5\SysVentVehiculo\src\main\java\pe\edu\upeu\repository\ClienteRepository.java
+C:\RUBEN\POO-G2-2026-1-dev-s5\SysVentVehiculo\src\main\java\pe\edu\upeu\repository\VehiculoRepository.java
+C:\RUBEN\POO-G2-2026-1-dev-s5\SysVentVehiculo\src\main\java\pe\edu\upeu\repository\VentaRepository.java
+C:\RUBEN\POO-G2-2026-1-dev-s5\SysVentVehiculo\src\main\java\pe\edu\upeu\service\ClienteService.java
+C:\RUBEN\POO-G2-2026-1-dev-s5\SysVentVehiculo\src\main\java\pe\edu\upeu\service\ClienteServiceImp.java

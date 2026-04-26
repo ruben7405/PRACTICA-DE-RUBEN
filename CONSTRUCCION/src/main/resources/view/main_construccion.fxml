@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pe.edu.upeu.controller.ConstruccionController">
+   <children>
+      <VBox layoutX="14.0" layoutY="14.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+         <children>
+            <AnchorPane>
+               <children>
+                  <Pane layoutX="14.0" layoutY="-2.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+                     <children>
+                        <Label layoutX="23.0" layoutY="14.0" text="Gestión de Permisos de Construcción" textAlignment="CENTER" textFill="#06081f">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="376.0" layoutY="14.0" text="Buscar Permiso" />
+                        <TextField fx:id="txtBuscar" layoutX="376.0" layoutY="31.0" />
+                     </children>
+                  </Pane>
+               </children>A
+            </AnchorPane>
+            <AnchorPane>
+               <children>
+                  <HBox layoutX="14.0" layoutY="14.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+                     <children>
+                        <GridPane>
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="DATOS DEL PERMISO" GridPane.columnSpan="2147483647" />
+                              <Label text="Nro Licencia:" GridPane.rowIndex="1" />
+                              <TextField fx:id="txtNumeroLicencia" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+                              <Label text="Tipo Obra:" GridPane.rowIndex="2" />
+                              <ComboBox fx:id="cbxTipoObra" maxWidth="1.7976931348623157E308" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="2" />
+                              <Label text="Dirección:" GridPane.rowIndex="3" />
+                              <TextField fx:id="txtDireccion" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="3" />
+                              <Button fx:id="btnGuardar" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Guardar" GridPane.rowIndex="5">
+                                 <GridPane.margin>
+                                    <Insets right="5.0" />
+                                 </GridPane.margin>
+                                 <styleClass>
+                                    <String fx:value="btn" />
+                                    <String fx:value="btn-primary" />
+                                 </styleClass>
+                              </Button>
+                              <Button fx:id="btnActualizar" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Actualizar" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                                 <GridPane.margin>
+                                    <Insets left="5.0" right="5.0" />
+                                 </GridPane.margin>
+                              </Button>
+                              <Button fx:id="btnLimpiar" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Limpiar" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                                 <GridPane.margin>
+                                    <Insets left="5.0" right="5.0" />
+                                 </GridPane.margin>
+                              </Button>
+                              <Button fx:id="btnEliminar" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Eliminar" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                                 <GridPane.margin>
+                                    <Insets left="5.0" />
+                                 </GridPane.margin>
+                              </Button>
+                           </children>
+                        </GridPane>
+                        <TableView fx:id="regConstruccionTabla">
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </TableView>
+                     </children></HBox>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
